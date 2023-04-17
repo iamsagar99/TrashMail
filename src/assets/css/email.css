@@ -1,0 +1,35 @@
+.row {
+    display: flex;
+    align-items: center;
+    margin: 10px 100px;
+   
+  }
+  
+  input {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+    border-color: 2px solid black;
+  }
+  
+
+  .back {
+    background:  #d16b1d;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+button.back:hover{
+    background: #36a336;
+  }
+  
+  p {
+   margin-left: 25%;
+    font-size: 125%;
+    font-weignt: bold;
+
+  }
+ 
+  

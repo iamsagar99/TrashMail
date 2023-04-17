@@ -1,0 +1,13 @@
+.maindiv{
+    height: 500px;
+    width: 600px;
+    border: 1px solid black;
+    margin-left: 30%;
+    background-color:#dcdedc;
+}
+
+.nav{
+    margin-left: 14px;
+    color: #d16b1d;
+    text-align: center;
+}
