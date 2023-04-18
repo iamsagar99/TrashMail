@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+### Temporary Mail Web App
+    This is a temporary mail web app that allows users to create disposable email addresses to use for temporary or one-time purposes, such as online registrations, sign-ups, and verifications. The app generates a unique email address for each session, and all received emails are stored temporarily on the app's server and are accessible to the user via a simple user interface.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    Here's a brief guide on how to use our app:
 
-## Available Scripts
+    Visit our website: Start by visiting our website [insert website URL here] in your web browser. Our homepage will display a random email address that you can use for temporary email.
 
-In the project directory, you can run:
+    Copy the email address: Click on the "Copy" button to copy the email address to your clipboard. You can then use this email address to sign up for online services, newsletters, or any other website that requires an email address.
 
-### `npm start`
+    Receive emails: Any emails sent to your temporary email address will appear on our website in real-time. Simply refresh the page to see any new emails.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Read emails: Click on the email subject to read the email's content. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Delete emails: In 10 minute interval, current email is permantly deleted and new email is generated.
 
-### `npm test`
+    Generate new email addresses: If you need a new temporary email address, simply click on the "Generate" button to create a new email address.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Features
+    - Create a temporary email address for one-time use
+    - Receive emails from any source
+    - Access received emails via a simple and easy-to-use interface
+    - No registration or personal information required
+    - All emails are automatically deleted after a specified time
+### How to Use
+    1. Go to the app's homepage.
+    2. Click the "Generate" button to create a new temporary email address.
+    3. Use the generated email address to receive emails from any source.
+    4. Go back to the app's homepage to check and read your received emails.
+    5. All received emails are automatically deleted after 10 minutes.
+### Technologies Used
+    - React.js - Front-end development
+    - Bootstrap - UI/UX design
+    - 1sec mail api
 
-### `npm run build`
+### How to Install and Run Locally
+    1. Clone the repository or download the source code.
+    2. Navigate to the project directory.
+    3. Run npm install to install all dependencies.
+    4. Start the server by running npm start.
+    5. Open your web browser and go to http://localhost:3000 to access the app.
+### Future Improvements
+    - Add support for custom email domains
+    - Allow users to specify the email expiration time
+    - Implement two-factor authentication for added security
+    - Add support for attachments and file downloads
+    - Improve overall UI/UX design
+### Developed By
+    - Sagar Poudel
+    - https://github.com/iamsagar99
+License
+This project is licensed under the MIT License.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
