@@ -32,4 +32,13 @@ button.back:hover{
 
   }
  
-  
+  .emtag{
+    color: green;
+    margin-left: 70%;
+    font-weignt: bold;
+    font-size: 1rem;
+  }
+
+  .msgbg{
+    background: white;
+  }

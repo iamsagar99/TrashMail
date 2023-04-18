@@ -1,7 +1,8 @@
 import NavBar from "./components/nav.component";
 import "./assets/home.css"
 import Email from "./components/email.component";
-import MessageBox from "./components/box.component";
+import Inbox from "./components/box.component";
+
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
     <NavBar />
     <Email/>
     <hr />
-    <MessageBox/>
+    <Inbox/>
     </div>
   );
 }
