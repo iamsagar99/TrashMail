@@ -15,7 +15,8 @@
 
     Generate new email addresses: If you need a new temporary email address, simply click on the "Generate" button to create a new email address.
 ### Demo
-    https://10min-trashmail.netlify.app/
+    <a href="https://10min-trashmail.netlify.app/
+" target="_blank">10min-trashmail</a>
 ### Features
     - Create a temporary email address for one-time use
     - Receive emails from any source
